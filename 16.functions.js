@@ -69,8 +69,17 @@ function fib5(num){
 }
 
 // console.log(fib5(5));
-
 console.time();
-console.log(fib2(50))
-console.time('test');
+fib1(50);
+console.timeEnd();
+console.time('fib2');
+fib2(50);
+console.timeEnd('fib2');
+console.time('fib3');
+fib3(50);
+console.timeEnd('fib3');
+console.time('fib4');
+fib4(50);
+console.timeEnd('fib4');
+
 
